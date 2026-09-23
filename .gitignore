@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+reports/*.db
+reports/*.db-journal
+.env
+*.egg-info/
+dist/
+build/
