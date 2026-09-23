@@ -1,0 +1,7 @@
+# Everything runs offline with stdlib + pytest only.
+pytest>=7
+
+# Optional: swap the offline SQLite shim for the real Langfuse cloud client.
+# The langfuse package did not import cleanly in this offline build environment,
+# so it stays optional here. Uncomment to use it with your LANGFUSE_* keys:
+# langfuse>=2
